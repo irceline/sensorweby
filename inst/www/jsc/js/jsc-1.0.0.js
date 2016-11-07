@@ -6915,13 +6915,13 @@ var Settings = {
         apiUrl: 'http://geo.irceline.be/sos/api/v1/'
     },
     // default setting for clustering stations
-    clusterStations: true,
+    clusterStations: false,
     // default setting for generalization of the data
-    generalizeData: true,
+    generalizeData: false,
     // default setting for save status
     saveStatus: false,
     // default setting for concentration marker
-    concentrationMarker: false,
+    concentrationMarker: true,
     // map options of leaflet
     mapOptions: {},
     // zoom level in the map, used for user location and station position
